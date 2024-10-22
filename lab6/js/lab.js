@@ -2,9 +2,24 @@
 // Author: Your Name
 // Date:
 
-// Constants
+// Define Variables
+make = "Mazda";
+model = "Miata";
+color = "Black";
+year = 1996;
 
-// Functions
+// calculate
+age = 2024 - 1996
+
+// output
+document.writeln("Make: " + make + "<br>");
+document.writeln("Model: " + model + "<br>");
+document.writeln("Color: " + color + "<br>");
+document.writeln("Year: " + year + "<br>");
+document.writeln("Age: " + age + "<br>");
+
+
+
 
 // this is an example function and this comment tells what it doees and what parameters are passed to it.
 function myFunction(param1, param2) {

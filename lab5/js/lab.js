@@ -1,6 +1,7 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Lab 5 - Data Types and Variables
+// Author: Connor Maynard
+// Date: 10/21/2024
+
 
 // Constants
 
