@@ -17,7 +17,7 @@ var MyMainRide={
 }
 
 // output
-document.writeln("My Main Ride: <pre>", 
+document.writeln("Kinds of transportation I use: ", myTransport", 
   JSON.stringify(MyMainRide, null, '\t'), "</pre>");
 
 
