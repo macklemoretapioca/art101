@@ -3,34 +3,24 @@
 // Date:
 
 // Define Variables
-make = "Mazda";
-model = "Miata";
-color = "Black";
-year = 1996;
+myTransport = ["Mazda Miata", "Friends"]
 
-// calculate
-age = 2024 - 1996
+// create object for MyMainRide
+var MyMainRide={
+  make: "Mazda",
+  model: "Miata",
+  color: "Black",
+  year: "1996",
+  age: function() {
+      return 2024 - this.year;
+      }
+}
 
 // output
-document.writeln("Make: " + make + "<br>");
-document.writeln("Model: " + model + "<br>");
-document.writeln("Color: " + color + "<br>");
-document.writeln("Year: " + year + "<br>");
-document.writeln("Age: " + age + "<br>");
+document.writeln("My Main Ride: <pre>", 
+  JSON.stringify(MyMainRide, null, '\t'), "</pre>");
 
 
 
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
