@@ -20,7 +20,7 @@ function sortusername() {
 }
 
 // output
-document.writeln("Oh hey, I've fixed your name: ",
+document.writeln("Your name is sorted: ",
     sortUserName(), "</br>");
 
 
