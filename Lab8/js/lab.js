@@ -23,7 +23,7 @@ var result = array.map (function(x){
 })
 //should return array values /4
 console.log("Array divided by 4", result);
-
+  
 
 
 
