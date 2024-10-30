@@ -2,6 +2,7 @@
 // Author: Connor Maynard
 // Date: 10/28/24
 
+
 // Sortusername - a function that sorts the letter of the input
 function sortUserName() {
   var userName = window.prompt("Hi. PLease tell me your name so I can fix it.");
@@ -24,12 +25,6 @@ function sortUserName() {
   return nameSorted;
 }
 
-// output
+  // output
 document.writeln("Your name is sorted: ",
-    sortUserName(), "</br>");
-
-
-
-
-
-
+  sortUserName(), "</br>");
