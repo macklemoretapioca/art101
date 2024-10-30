@@ -9,7 +9,7 @@ function MultiplyDis(x){
 }
 
 //print result
-console.log("Square these up", MultiplyDis(5));
+console.log("Square 5 up", MultiplyDis(5));
 
 array = [3, 19, 44, 98]
 console.log("My array", array);
