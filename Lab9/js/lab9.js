@@ -5,6 +5,9 @@
 // add button to challenge section
 $("#Challenge").append("<button id='button-Challenge'>Make Special</button>");
 
+// button to problems
+$("#Problems").append("<button id='button-Challenge'>Make Special</button>");
+
 // add a click listener to the challenge button
 $("button-Challenge").click(function(){
   // now add (or subtract) the "special" class to the section
